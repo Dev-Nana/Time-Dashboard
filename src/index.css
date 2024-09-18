@@ -7,15 +7,57 @@
 
 body {
   margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
   font-family: "Rubik", sans-serif;
   background-color: var(--Very-dark-blue);
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* md	768px	@media (max-width: 768px) { ... } */
 
-.usercard {
+
+.usercard_content {
   background-color: var(--Violet-social);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* width: clamp(20rem, 100%, 28rem);   */
 }
+
+.usercard-image {
+  display: flex;
+  width: clamp(3.5rem, 10vw, 5rem);  
+  height: clamp(3.5rem, 10vw, 5rem);
+  /*+min = diminui o tamanho minimo */
+  /*-meio = demora menos para ajusta para o min */
+  /*+max = o maior tamanho */
+  border-radius: 100%;
+  border: solid var(--White) 0.2rem;
+  margin: 1rem;
+}
+
+.usercard-text {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem 2rem 0;
+}
+
+.text-report {
+  color: var(--Pale-Blue);
+  font-size: 0.9rem;
+}
+
+.text-name {
+  font-weight: 300;
+  color: var(--White);
+}
+
+/* sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... } */
