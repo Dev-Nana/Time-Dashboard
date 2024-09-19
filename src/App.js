@@ -1,12 +1,12 @@
-import Perfil from './assets/images/image-jeremy.png';
-import UserCard from './usercard/usercard';
-import './App.css';
+// import { UserCard } from './components/usercard/usercard';
+import { Selector } from "./components/selector/selector";
 import './index.css';
 
 function App() {
   return (
     <div className="app_content">
-      <UserCard/>
+      {/* <UserCard/> */}
+      <Selector/>
     </div>
   );
 }

@@ -1,8 +1,7 @@
-import Perfil from '../assets/images/image-jeremy.png';
-// import './App.css';
-import '../index.css';
+import Perfil from '../../assets/images/image-jeremy.png';
+import '../../index.css';
 
-function UserCard() {
+export const UserCard = () => {
   return (
     <div className="usercard_content">
       <div className="usercard-image">
@@ -39,4 +38,3 @@ function UserCard() {
   );
 }
 
-export default UserCard;
