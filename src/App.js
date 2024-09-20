@@ -1,12 +1,12 @@
-// import { UserCard } from './components/usercard/usercard';
 import { Selector } from "./components/selector/selector";
+import { Cards } from "./components/cards/cards";
 import './index.css';
 
 function App() {
   return (
     <div className="app_content">
-      {/* <UserCard/> */}
       <Selector/>
+      <Cards/>
     </div>
   );
 }

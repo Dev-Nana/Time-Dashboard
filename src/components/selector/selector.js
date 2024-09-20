@@ -10,7 +10,7 @@ export const Selector = () => {
   };
   return (
     <div className="selector_content">
-      <UserCard></UserCard>
+      <UserCard/>
       <div className="selector-container">
         <button
           className={`selector-button ${activeButton === 'daily' ? 'active' : ''}`}
