@@ -20,8 +20,6 @@ body {
 /* muda a partir de 500px*/
 /* começa em 300px*/
 
-/* UserCard */
-
 .usercard_content {
   background-color: var(--Blue);
   display: flex;
@@ -36,9 +34,6 @@ body {
   display: flex;
   width: clamp(3.7rem, 11vw, 5rem);
   height: clamp(3.7rem, 11vw, 5rem);
-  /*+min = diminui o tamanho minimo */
-  /*-meio = demora menos para ajusta para o min */
-  /*+max = o maior tamanho */
   border-radius: 100%;
   border: solid var(--White) 0.2rem;
   margin: 2rem 0 2rem 1.5rem;
@@ -60,8 +55,6 @@ body {
   font-weight: 300;
   color: var(--White);
 }
-
-/* Selector */
 
 .selector_content {
   background-color: var(--Dark-blue);
@@ -141,6 +134,10 @@ body {
   padding: 1rem 1.5rem;
 }
 
+.cards-container:hover{
+  background-color: var(--Desaturated-blue);
+}
+
 .cards-menu {
   display: flex;
   flex-direction: column;
@@ -160,6 +157,11 @@ body {
   font-size: 0.8rem;
 }
 
+.cards-icon:hover{
+  filter: brightness(0%) invert(100%);
+  cursor: pointer;
+}
+
 .text{
   font-weight: 500;
 }
@@ -168,14 +170,6 @@ body {
   font-size: 1.8rem;
   font-weight: 200;
 }
-
-/* .cards-menu, .cards-time {
-  display: flex;
-  padding: .5rem;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around; 
-} */
 
 
 /* sm	640px	@media (min-width: 640px) { ... }

@@ -7,7 +7,7 @@ export const Cards = () => {
     <div>
       {
         cardData.map((data) => (
-          <div key={data.id} className={`cards_content ${data.class}`}>
+          <div className={`cards_content ${data.class}`}>
             <div className='cards-image'>
               <img src={data.image} alt='icon-work' />
             </div>

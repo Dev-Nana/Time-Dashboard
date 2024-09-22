@@ -8,10 +8,11 @@
   --Violet-social: hsl(264, 64%, 52%);
   --Soft-orange-self-care: hsl(43, 84%, 65%);
   --White: hsl(0, 0%, 100%);
+  
 
   /* Neutral */
   --Very-dark-blue: hsl(226, 43%, 10%);
   --Dark-blue: hsl(235, 46%, 20%);
-  --Desaturated-blue: hsl(235, 45%, 61%);
+  --Desaturated-blue: #34397b;
   --Pale-Blue: hsl(236, 100%, 87%);
 }
